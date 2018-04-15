@@ -1,0 +1,15 @@
+.dark-theme {
+  ion-content {
+    background-color: color($colors, 'dark');
+    color: #fff;
+  }
+ 
+  .toolbar-title {
+    text-align: center;
+    color: #fff;
+  }
+ 
+  .toolbar-background {
+    background-color: color($colors, 'dark');
+  }
+}  

@@ -1,14 +1,32 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Custom Themes
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
+  <p text-center>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum atque eum aut nisi, debitis vel facilis iste non laborum
+    voluptatum deleniti eaque itaque, fugiat sit error possimus aperiam architecto nesciunt.
   </p>
+  <button ion-button color="dark" (click)="toggleAppTheme('dark-theme')">
+    Dark
+  </button>
+  <button ion-button color="light" (click)="toggleAppTheme('light-theme')">
+    Light
+  </button>
+  <button ion-button color="primary" (click)="toggleAppTheme('blue-theme')">
+    Blue
+  </button>
+  <button ion-button color="secondary" (click)="toggleAppTheme('green-theme')">
+    Green
+  </button>
+  <button ion-button color="danger" (click)="toggleAppTheme('red-theme')">
+    Red
+  </button>
+  <button ion-button color="royal" (click)="toggleAppTheme('royal-theme')">
+    Royal
+  </button>
 </ion-content>

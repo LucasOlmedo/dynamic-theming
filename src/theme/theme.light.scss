@@ -1,0 +1,13 @@
+.light-theme {
+  ion-content {
+    background-color: #fff;
+  }
+
+  .toolbar-title {
+    text-align: center;
+  }
+ 
+  .toolbar-background {
+    background-color: color($colors, 'light');
+  }
+}

@@ -1,0 +1,14 @@
+.blue-theme {
+  ion-content {
+    background-color: #fff;
+  }
+
+  .toolbar-title {
+    text-align: center;
+    color: #fff;
+  }
+
+  .toolbar-background {
+    background-color: color($colors, 'primary');
+  }
+}  

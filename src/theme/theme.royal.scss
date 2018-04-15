@@ -1,0 +1,15 @@
+.royal-theme {
+  ion-content {
+    background-color: rgb(85, 100, 110);
+    color: #fff;
+  }
+
+  .toolbar-title {
+    text-align: center;
+    color: #fff;
+  }
+
+  .toolbar-background {
+    background-color: color($colors, 'royal');
+  }
+} 

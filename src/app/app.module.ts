@@ -8,6 +8,8 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { SettingsProvider } from '../providers/settings/settings';
 
+import { IonicStorageModule } from "@ionic/storage";
+
 @NgModule({
   declarations: [
     MyApp,
@@ -15,7 +17,8 @@ import { SettingsProvider } from '../providers/settings/settings';
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+    IonicStorageModule.forRoot()
   ],
   bootstrap: [IonicApp],
   entryComponents: [

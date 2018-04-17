@@ -7,7 +7,7 @@ import { NavController, ToastController } from 'ionic-angular';
   templateUrl: 'home.html'
 })
 export class HomePage {
-  
+
   selectedTheme: String;
 
   constructor(
@@ -19,13 +19,13 @@ export class HomePage {
       .subscribe(val => this.selectedTheme = val);
   }
 
-  toggleAppTheme(theme) {
+  setAppTheme(theme) {
     this.settings.setActiveTheme(theme);
 
     let toast = this.toast.create({
-      message: 'Theme changed',
-      duration: 1500,
-      position: 'top'
+      message: 'Theme changed!',
+      duration: 1000,
+      position: 'bottom'
     });
 
     toast.present();
